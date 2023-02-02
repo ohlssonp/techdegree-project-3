@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+	  <head>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
@@ -17,12 +17,12 @@
 	<h2>Sign up for our newslatter</h2>
 	<p>Get the latest news on how your code is doing right in your inbox.</p>
 </section>
-<section>
+<div class="section">
 	<hr>
 
 		<form action="index.html" method="post">
 	<fieldset class="contact_information">
-		<h2>Contact information</h2>
+		<legend>Contact information</legend>
 		<div class="flex-container">
 		<div class="box-1">
 		<label for="name">Full Name:</label>
@@ -44,7 +44,7 @@
 		<label for="phoneNumber">Phone Number:</label>
 	</div>
 		<div class="box-2">
-		<input type="telephone" id="phoneNumber" name="phone_number">
+		<input type="tel" id="phoneNumber" name="phone_number">
 	</div>
 	</div>
 	<div class="flex-container">
@@ -90,9 +90,10 @@
 </div>
 
 	</fieldset>
+	<hr>
+
 <fieldset>
-<hr>
-<h2>Newslatter</h2>
+<legend>Newslatter</legend>
 <p>Select the newslatter you would like to recive</p>
 
 	<input type="checkbox" id="html_news" name="news" ><label for="html_news">HTML News</label><br>
@@ -106,10 +107,7 @@
       <input type="radio" id="plain_text" name="format"><label for="plain_text">Plain text</label><br>
 
 
-
-	  <p>Other topis you´d like to hear about?
-
-	  </p>
+	  <label class="comment" for="comment">Other topis you´d like to hear about?</label><br><br>
 	  <textarea id="comment" name="user_comment"></textarea><br>
 
       
@@ -117,6 +115,6 @@
 	</fieldset>
     </form>
 
-</section>
+</div>
   </body>
 </html>

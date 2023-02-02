@@ -39,6 +39,10 @@ p {
 text-align: center;
 }
 
+.comment {
+    font-size: 0.8rem;
+}
+
 .flex-container {
     flex-direction: column; 
     display: flex;
@@ -59,7 +63,6 @@ text-align: center;
 }
 .contact_information input:focus {
     background-color: #4ebbb5;
-    border-color:none;
 }
 
 select:focus {
@@ -136,7 +139,7 @@ select {
 }
 
 #zip_code  {
-    width: 45%;
+    width: 50%;
 } 
 
 @media (min-width: 768px) {
@@ -146,15 +149,11 @@ select {
         align-items: center;
     }
     .box-1 {
-        flex: 1;
         flex-basis: 0%;
-        margin: 1%;
         order:1;
     }
     .box-2 {
-        flex: 1;
         flex-basis: 50%;
-        margin: 1%;
         order:2;
     }
         .contact_information input {
@@ -164,10 +163,17 @@ select {
             width: 30%;
         } 
 
+        .section {
+            width: 60%;
+            margin: 0 auto;
+        }
         section {
             width: 60%;
             margin: 0 auto;
         }
+        #zip_code  {
+            width: 25%;
+        } 
 
     }
 @font-face {
