@@ -3,6 +3,11 @@ body {
 
 }
 
+hr {
+    border: 1px double;
+    
+}
+
 header h1 {
     font-family:'Merriweather-Bold', Arial, sans-serif;
     font-size: 1.1rem;
@@ -19,7 +24,7 @@ h2 {
 
 }
 
-header h2 {
+header h2, .top-content  h2 {
     text-align: center;
 }
 
@@ -30,7 +35,7 @@ p {
     color: #7a8896;
 }
 
-header p {
+.top-content p {
 text-align: center;
 }
 
@@ -158,6 +163,11 @@ select {
         #zip_code  {
             width: 30%;
         } 
+
+        section {
+            width: 60%;
+            margin: 0 auto;
+        }
 
     }
 @font-face {
