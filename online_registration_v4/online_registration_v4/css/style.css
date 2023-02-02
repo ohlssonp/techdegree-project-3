@@ -1,0 +1,174 @@
+body {
+    max-width: 100%;
+
+}
+
+header h1 {
+    font-family:'Merriweather-Bold', Arial, sans-serif;
+    font-size: 1.1rem;
+    color:white;
+    text-align: center;
+    background-color: #2d3945;
+    padding:13px 13px;
+}
+
+h2 {
+    font-family:'Merriweather-Bold',  Arial, sans-serif;
+    font-size: 0.9rem;
+    color:#2d3945;
+
+}
+
+header h2 {
+    text-align: center;
+}
+
+p {
+    font-family:'Merriweather-light',  'Heebo-light', Arial, sans-serif;
+    font-size: 0.8rem;
+    margin: 15px 0px;
+    color: #7a8896;
+}
+
+header p {
+text-align: center;
+}
+
+.flex-container {
+    flex-direction: column; 
+    display: flex;
+    margin: 20px auto;
+
+}
+.box-1 {
+    flex: 1;
+    flex-basis: 20%;
+    margin: 1%;
+    order:1;
+}
+.box-2 {
+    flex: 1;
+    flex-basis: 20%;
+    margin: 1%;
+    order:2;
+}
+.contact_information input:focus {
+    background-color: #4ebbb5;
+    border-color:none;
+}
+
+select:focus {
+    background-color: #4ebbb5;
+}
+
+
+input[type="checkbox" i] {
+    accent-color: lightblue;
+    margin: 3%;
+
+}
+input[type="radio" i] {
+    accent-color: lightblue;
+    margin: 3%;
+
+}
+input[placeholder="Required" i] {
+text-align: right;
+font-family:'Merriweather-LightItalic',  Arial, sans-serif;
+margin-right: 2%;
+}
+
+label {
+    font-family:'Merriweather-light',  Arial, sans-serif;
+    color:#7a8896;
+    font-size: 0.8rem;
+
+    }
+
+fieldset {
+    border:none;
+}
+
+textarea {
+    width:98%;
+    height:100px;
+    background-color:#eff0f1;
+    margin:0 auto;
+    resize:none;
+    margin-left: 1%;
+    border:none;
+
+}
+
+button {
+    width:100%;
+    height:35px;
+    background-color:#4ebbb5;
+    color:white;
+    margin:0 auto;
+    font-family:'Merriweather-Bold',  Arial, sans-serif;
+    border-radius: 3px;
+    border: none;
+    margin: 5% 0 0 0.8%;
+
+    }
+
+  
+.contact_information input {
+    width: 93%;
+    padding: 18px 12px;
+    margin: 10px 0px;
+    background-color:#eff0f1;
+    border:none;
+}
+
+select {
+    width: 100%;
+    padding: 18px 12px;
+    margin: 10px 0px;
+    background-color:#eff0f1;
+    border:none;
+}
+
+#zip_code  {
+    width: 45%;
+} 
+
+@media (min-width: 768px) {
+
+    .flex-container {
+        flex-direction: row; 
+        align-items: center;
+    }
+    .box-1 {
+        flex: 1;
+        flex-basis: 0%;
+        margin: 1%;
+        order:1;
+    }
+    .box-2 {
+        flex: 1;
+        flex-basis: 50%;
+        margin: 1%;
+        order:2;
+    }
+        .contact_information input {
+            width: 95%;
+        }
+        #zip_code  {
+            width: 30%;
+        } 
+
+    }
+@font-face {
+    font-family:Merriweather-Bold;
+    src: url(../Fonts/Merriweather-Bold.ttf);
+  }
+  @font-face {
+    font-family:Merriweather-light;
+    src: url(../Fonts/Merriweather-light.ttf);
+  }
+  @font-face {
+    font-family:Merriweather-LightItalic;
+    src: url(../Fonts/Merriweather-LightItalic.ttf);
+  }
