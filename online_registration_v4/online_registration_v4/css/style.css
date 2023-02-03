@@ -31,6 +31,12 @@ p {
     color: #7a8896;
 }
 
+option[value="selected" i] {
+    accent-color: lightblue;
+}
+
+
+
 .top-content p {
 text-align: center;
 }
@@ -60,11 +66,47 @@ legend {
     order:2;
 }
 .contact_information input:focus {
-    background-color: #4ebbb5;
-}
+    color: #000;
+    background: rgb(214, 210, 210);
+    outline: 0;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;}
 
 select:focus {
-    background-color: #4ebbb5;
+    color: #000;
+    background: rgb(214, 210, 210);
+    outline: 0;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+
+
+input[type=text]:focus {
+    color: #000;
+    background: rgb(214, 210, 210);
+    outline: 0;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+textarea:focus {
+    color: #000;
+    background: rgb(214, 210, 210);
+    outline: 0;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
 }
 
 
